@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bloco{
+    width: 20%;
+    margin: 10px;
+    padding: 10px 20px 20px 10px;
+}
+/* Aqui acima no padding está o grande ajuste final do feedback, pois as frases conforme o modelo passado estão mais para a parte superior esquerda do retângulo, então minha ideia foi utilizar o método de abreviações, onde neste caso a ordem do padding é: top, right, bottom, left (sentido horário: topo, direita, base, esquerda); Portanto coloquei um valor menor de espaço para o top e o left, e coloquei o dobro para o right e o bottom, o que solucionou o exercício de forma total. */ 
+
+#bloco-1{
+    background-color: rgb(228, 136, 24);
+    color: white;
+    border: 5px orange solid;
+    /* width: 20%;
+    margin: 10px;
+    padding: 15px; */
+    
+}
+
+#bloco-2{
+    background-color: rgb(67, 132, 67);
+    color: white;
+    border: 5px rgb(60, 155, 60) solid;
+    
+}
+
+#bloco-3{
+    background-color: rgb(0, 63, 0);
+    color: white;
+    border: 5px rgb(8, 205, 8) dashed;
+    
+}
+
+#bloco-4{
+    background-color: rgb(210, 48, 48);
+    color: white;
+    border: 5px rgb(250, 103, 103) dashed;
+    
+}
+
+/* #bloco-5{
+    background-color: purple;
+    color: white ;
+    border: 5px rgb(189, 106, 231) double;
+    
+} */
+
+main{
+    font-family: Helvetica, Arial, sans-serif;
+}
